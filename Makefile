@@ -6,11 +6,11 @@
 #    By: hde-ghel <hde-ghel@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/03/17 16:02:33 by hde-ghel          #+#    #+#              #
-#    Updated: 2020/01/19 19:00:32 by hde-ghel         ###   ########.fr        #
+#    Updated: 2020/01/24 14:06:09 by hde-ghel         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = libftprintf.a
+NAME = hde-ghel.filler
 CC = gcc
 FLAGS = -Wall -Werror -Wextra
 LIBFT = $(LIBDIR)libft.a
@@ -50,11 +50,9 @@ $(OBJSUBDIR):
 	@mkdir $@
 
 $(NAME): $(OBJSUBDIR) $(OBJ)
-	@echo "$(C_CYAN)libftprintf OBJ creation   [$(C_GREEN)✔$(C_CYAN)] $(C_RESET)"
-	@ar ru $(NAME) $(OBJ) $(OBJLIB)
-	@echo "$(C_CYAN)libftprintf OBJ compilation[$(C_GREEN)✔$(C_CYAN)]$(C_RESET)"
-	@ranlib $(NAME)
-	@echo "$(C_CYAN)libftprintf.a creation     [$(C_GREEN)✔$(C_CYAN)]$(C_RESET)"
+	@echo "$(C_CYAN)Filler OBJ creation   [$(C_GREEN)✔$(C_CYAN)] $(C_RESET)"
+	@$(CC) $(FLAGS) $(OBJ) -o $(NAME) $(LIBFT) -I $(INCL)
+	@echo "$(C_CYAN)Filler OBJ compilation[$(C_GREEN)✔$(C_CYAN)]$(C_RESET)"
 
 clean:
 	@rm -rf $(OBJDIR)
