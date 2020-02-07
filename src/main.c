@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/03 18:40:39 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/02/07 14:15:21 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/02/07 16:53:00 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,6 +54,11 @@ int		read_vm(t_filler *env)
 				ret = parse_map(env);
 			if (ft_strstr(line, "Piece"))
 				ret = parse_piece(env);
+			if (ft_strstr(line, "== O fin"))
+			{
+				env->end = 1;
+				gnl_check = 0;
+			}
 			ft_strdel(&line);
 		}
 		else if (gnl_check < 0)
