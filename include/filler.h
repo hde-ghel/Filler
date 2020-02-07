@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/24 13:46:05 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/02/06 13:03:52 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/02/07 13:58:36 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,8 @@ typedef	struct	s_filler
 	int		msize_y;
 	int		psize_x;
 	int		psize_y;
-	int		player;
+	char	player;
+	int		end;
 
 
 	FILE		*fd_log;

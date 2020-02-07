@@ -1,0 +1,6796 @@
+read: # -------------- VM  version 1.1 ------------- #
+
+read: #                                              #
+
+read: # 42 / filler VM Developped by: Hcao - Abanlin #
+
+read: #                                              #
+
+read: # -------------------------------------------- #
+
+read: launched ./adefonta.filler
+
+read: $$$ exec p1 : [./adefonta.filler]
+
+read: launched ./tjuzen.filler
+
+read: $$$ exec p2 : [./tjuzen.filler]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 .................
+
+read: 010 .................
+
+read: 011 .................
+
+read: 012 ..............X..
+
+read: 013 .................
+
+read: 014 .................
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (O): [8, 2]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..o..............
+
+read: 009 ..o..............
+
+read: 010 .................
+
+read: 011 .................
+
+read: 012 ..............X..
+
+read: 013 .................
+
+read: 014 .................
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (X): [12, 13]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..O..............
+
+read: 010 .................
+
+read: 011 .................
+
+read: 012 .............xx..
+
+read: 013 .................
+
+read: 014 .................
+
+read: Piece 2 3:
+
+read: .**
+
+read: ..*
+
+read: <got (O): [9, 1]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..oo.............
+
+read: 010 ...o.............
+
+read: 011 .................
+
+read: 012 .............XX..
+
+read: 013 .................
+
+read: 014 .................
+
+read: Piece 2 2:
+
+read: *.
+
+read: **
+
+read: <got (X): [11, 12]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO.............
+
+read: 010 ...O.............
+
+read: 011 ............x....
+
+read: 012 ............xxX..
+
+read: 013 .................
+
+read: 014 .................
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (O): [10, 3]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO.............
+
+read: 010 ...oo............
+
+read: 011 ............X....
+
+read: 012 ............XXX..
+
+read: 013 .................
+
+read: 014 .................
+
+read: Piece 2 3:
+
+read: .**
+
+read: ...
+
+read: <got (X): [11, 10]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO.............
+
+read: 010 ...OO............
+
+read: 011 ...........xx....
+
+read: 012 ............XXX..
+
+read: 013 .................
+
+read: 014 .................
+
+read: Piece 2 3:
+
+read: **.
+
+read: .**
+
+read: <got (O): [10, 4]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO.............
+
+read: 010 ...Ooo...........
+
+read: 011 .....oo....XX....
+
+read: 012 ............XXX..
+
+read: 013 .................
+
+read: 014 .................
+
+read: Piece 1 3:
+
+read: ***
+
+read: <got (X): [11, 9]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO.............
+
+read: 010 ...OOO...........
+
+read: 011 .....OO..xxxX....
+
+read: 012 ............XXX..
+
+read: 013 .................
+
+read: 014 .................
+
+read: Piece 2 3:
+
+read: ***
+
+read: .**
+
+read: <got (O): [11, 6]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO.............
+
+read: 010 ...OOO...........
+
+read: 011 .....OoooXXXX....
+
+read: 012 .......oo...XXX..
+
+read: 013 .................
+
+read: 014 .................
+
+read: Piece 2 2:
+
+read: **
+
+read: ..
+
+read: <got (X): [12, 11]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO.............
+
+read: 010 ...OOO...........
+
+read: 011 .....OOOOXXXX....
+
+read: 012 .......OO..xxXX..
+
+read: 013 .................
+
+read: 014 .................
+
+read: Piece 2 3:
+
+read: **.
+
+read: .*.
+
+read: <got (O): [12, 8]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO.............
+
+read: 010 ...OOO...........
+
+read: 011 .....OOOOXXXX....
+
+read: 012 .......Ooo.XXXX..
+
+read: 013 .........o.......
+
+read: 014 .................
+
+read: Piece 2 3:
+
+read: .*.
+
+read: .**
+
+read: <got (X): [12, 10]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO.............
+
+read: 010 ...OOO...........
+
+read: 011 .....OOOOXXXX....
+
+read: 012 .......OOO.xXXX..
+
+read: 013 .........O.xx....
+
+read: 014 .................
+
+read: Piece 2 2:
+
+read: **
+
+read: **
+
+read: <got (O): [13, 9]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO.............
+
+read: 010 ...OOO...........
+
+read: 011 .....OOOOXXXX....
+
+read: 012 .......OOO.XXXX..
+
+read: 013 .........ooXX....
+
+read: 014 .........oo......
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (X): [12, 10]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO.............
+
+read: 010 ...OOO...........
+
+read: 011 .....OOOOXXXX....
+
+read: 012 .......OOOxxXXX..
+
+read: 013 .........OOXX....
+
+read: 014 .........OO......
+
+read: Piece 2 2:
+
+read: **
+
+read: ..
+
+read: <got (O): [14, 10]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO.............
+
+read: 010 ...OOO...........
+
+read: 011 .....OOOOXXXX....
+
+read: 012 .......OOOXXXXX..
+
+read: 013 .........OOXX....
+
+read: 014 .........Ooo.....
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (X): [10, 9]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO.............
+
+read: 010 ...OOO...x.......
+
+read: 011 .....OOOOxXXX....
+
+read: 012 .......OOOXXXXX..
+
+read: 013 .........OOXX....
+
+read: 014 .........OOO.....
+
+read: Piece 2 3:
+
+read: .*.
+
+read: .**
+
+read: <got (O): [12, 6]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO.............
+
+read: 010 ...OOO...X.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 .......oOOXXXXX..
+
+read: 013 .......ooOOXX....
+
+read: 014 .........OOO.....
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (X): [10, 8]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO.............
+
+read: 010 ...OOO..xx.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 .......OOOXXXXX..
+
+read: 013 .......OOOOXX....
+
+read: 014 .........OOO.....
+
+read: Piece 2 3:
+
+read: .**
+
+read: ***
+
+read: <got (O): [13, 5]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO.............
+
+read: 010 ...OOO..XX.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 .......OOOXXXXX..
+
+read: 013 ......ooOOOXX....
+
+read: 014 .....ooo.OOO.....
+
+read: Piece 2 3:
+
+read: ***
+
+read: ...
+
+read: <got (X): [10, 6]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO.............
+
+read: 010 ...OOOxxxX.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 .......OOOXXXXX..
+
+read: 013 ......OOOOOXX....
+
+read: 014 .....OOO.OOO.....
+
+read: Piece 1 3:
+
+read: ***
+
+read: <got (O): [14, 11]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO.............
+
+read: 010 ...OOOXXXX.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 .......OOOXXXXX..
+
+read: 013 ......OOOOOXX....
+
+read: 014 .....OOO.OOooo...
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (X): [13, 12]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO.............
+
+read: 010 ...OOOXXXX.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 .......OOOXXXXX..
+
+read: 013 ......OOOOOXxx...
+
+read: 014 .....OOO.OOOOO...
+
+read: Piece 2 3:
+
+read: ***
+
+read: ...
+
+read: <got (O): [14, 13]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO.............
+
+read: 010 ...OOOXXXX.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 .......OOOXXXXX..
+
+read: 013 ......OOOOOXXX...
+
+read: 014 .....OOO.OOOOooo.
+
+read: Piece 2 2:
+
+read: *.
+
+read: *.
+
+read: <got (X): [9, 6]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO..x..........
+
+read: 010 ...OOOxXXX.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 .......OOOXXXXX..
+
+read: 013 ......OOOOOXXX...
+
+read: 014 .....OOO.OOOOOOO.
+
+read: Piece 2 3:
+
+read: .**
+
+read: ...
+
+read: <got (O): [14, 14]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO..X..........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 .......OOOXXXXX..
+
+read: 013 ......OOOOOXXX...
+
+read: 014 .....OOO.OOOOOOoo
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (X): [9, 5]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO.xx..........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 .......OOOXXXXX..
+
+read: 013 ......OOOOOXXX...
+
+read: 014 .....OOO.OOOOOOOO
+
+read: Piece 1 3:
+
+read: ***
+
+read: <got (O): [12, 5]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OO.XX..........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 .....oooOOXXXXX..
+
+read: 013 ......OOOOOXXX...
+
+read: 014 .....OOO.OOOOOOOO
+
+read: Piece 2 3:
+
+read: **.
+
+read: ...
+
+read: <got (X): [9, 4]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OOxxX..........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 .....OOOOOXXXXX..
+
+read: 013 ......OOOOOXXX...
+
+read: 014 .....OOO.OOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (O): [14, 7]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OOXXX..........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 .....OOOOOXXXXX..
+
+read: 013 ......OOOOOXXX...
+
+read: 014 .....OOooOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (X): [13, 13]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OOXXX..........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 .....OOOOOXXXXX..
+
+read: 013 ......OOOOOXXxx..
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (O): [12, 4]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O..............
+
+read: 009 ..OOXXX..........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 ....ooOOOOXXXXX..
+
+read: 013 ......OOOOOXXXX..
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (X): [8, 4]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O.x............
+
+read: 009 ..OOxXX..........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 ....OOOOOOXXXXX..
+
+read: 013 ......OOOOOXXXX..
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (O): [13, 15]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..O.X............
+
+read: 009 ..OOXXX..........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 ....OOOOOOXXXXX..
+
+read: 013 ......OOOOOXXXXo.
+
+read: 014 .....OOOOOOOOOOoO
+
+read: Piece 1 3:
+
+read: **.
+
+read: <got (X): [8, 3]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..Oxx............
+
+read: 009 ..OOXXX..........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 ....OOOOOOXXXXX..
+
+read: 013 ......OOOOOXXXXO.
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (O): [12, 15]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..OXX............
+
+read: 009 ..OOXXX..........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 ....OOOOOOXXXXXo.
+
+read: 013 ......OOOOOXXXXo.
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: ***
+
+read: <got (X): [8, 4]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..OXxxx..........
+
+read: 009 ..OOXXX..........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 ....OOOOOOXXXXXO.
+
+read: 013 ......OOOOOXXXXO.
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: **.
+
+read: <got (O): [13, 15]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..OXXXX..........
+
+read: 009 ..OOXXX..........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 ....OOOOOOXXXXXO.
+
+read: 013 ......OOOOOXXXXoo
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: **
+
+read: ..
+
+read: <got (X): [9, 6]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..OXXXX..........
+
+read: 009 ..OOXXxx.........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 ....OOOOOOXXXXXO.
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (O): [12, 15]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .................
+
+read: 008 ..OXXXX..........
+
+read: 009 ..OOXXXX.........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 ....OOOOOOXXXXXoo
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: *..
+
+read: *..
+
+read: <got (X): [7, 3]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 ...x.............
+
+read: 008 ..OxXXX..........
+
+read: 009 ..OOXXXX.........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 .....OOOOXXXX....
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (O): [11, 4]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 ...X.............
+
+read: 008 ..OXXXX..........
+
+read: 009 ..OOXXXX.........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 ....ooOOOXXXX....
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (X): [7, 2]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 ..xx.............
+
+read: 008 ..OXXXX..........
+
+read: 009 ..OOXXXX.........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 ....OOOOOXXXX....
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (O): [9, 1]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 ..XX.............
+
+read: 008 ..OXXXX..........
+
+read: 009 .ooOXXXX.........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 ....OOOOOXXXX....
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: *..
+
+read: *..
+
+read: <got (X): [11, 14]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 ..XX.............
+
+read: 008 ..OXXXX..........
+
+read: 009 .OOOXXXX.........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 ....OOOOOXXXX.x..
+
+read: 012 ....OOOOOOXXXXxOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (O): [9, 0]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 ..XX.............
+
+read: 008 ..OXXXX..........
+
+read: 009 ooOOXXXX.........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 ....OOOOOXXXX.X..
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: **.
+
+read: <got (X): [7, 1]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .xxX.............
+
+read: 008 ..OXXXX..........
+
+read: 009 OOOOXXXX.........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 ....OOOOOXXXX.X..
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: *.
+
+read: *.
+
+read: <got (O): [11, 16]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .XXX.............
+
+read: 008 ..OXXXX..........
+
+read: 009 OOOOXXXX.........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 ....OOOOOXXXX.X.o
+
+read: 012 ....OOOOOOXXXXXOo
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (X): [7, 1]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .xXX.............
+
+read: 008 .xOXXXX..........
+
+read: 009 OOOOXXXX.........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 ....OOOOOXXXX.X.O
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: .*
+
+read: .*
+
+read: <got (O): [11, 14]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .XXX.............
+
+read: 008 .XOXXXX..........
+
+read: 009 OOOOXXXX.........
+
+read: 010 ...OOOXXXX.......
+
+read: 011 ....OOOOOXXXX.XoO
+
+read: 012 ....OOOOOOXXXXXoO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: ..*
+
+read: .**
+
+read: <got (X): [10, 12]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .XXX.............
+
+read: 008 .XOXXXX..........
+
+read: 009 OOOOXXXX.........
+
+read: 010 ...OOOXXXX....x..
+
+read: 011 ....OOOOOXXXXxxOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: ***
+
+read: ...
+
+read: <got (O): [11, 2]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .XXX.............
+
+read: 008 .XOXXXX..........
+
+read: 009 OOOOXXXX.........
+
+read: 010 ...OOOXXXX....X..
+
+read: 011 ..oooOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: **
+
+read: ..
+
+read: <got (X): [8, 0]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .XXX.............
+
+read: 008 xxOXXXX..........
+
+read: 009 OOOOXXXX.........
+
+read: 010 ...OOOXXXX....X..
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (O): [10, 16]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .XXX.............
+
+read: 008 XXOXXXX..........
+
+read: 009 OOOOXXXX.........
+
+read: 010 ...OOOXXXX....X.o
+
+read: 011 ..OOOOOOOXXXXXXOo
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: ***
+
+read: <got (X): [10, 13]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .XXX.............
+
+read: 008 XXOXXXX..........
+
+read: 009 OOOOXXXX.........
+
+read: 010 ...OOOXXXX...xxxO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (O): [9, 16]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 .................
+
+read: 007 .XXX.............
+
+read: 008 XXOXXXX..........
+
+read: 009 OOOOXXXX........o
+
+read: 010 ...OOOXXXX...XXXo
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: **.
+
+read: .**
+
+read: <got (X): [6, 2]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 ..xx.............
+
+read: 007 .XXxx............
+
+read: 008 XXOXXXX..........
+
+read: 009 OOOOXXXX........O
+
+read: 010 ...OOOXXXX...XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (O): [9, 15]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 ..XX.............
+
+read: 007 .XXXX............
+
+read: 008 XXOXXXX..........
+
+read: 009 OOOOXXXX.......oo
+
+read: 010 ...OOOXXXX...XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (X): [9, 14]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 ..XX.............
+
+read: 007 .XXXX............
+
+read: 008 XXOXXXX..........
+
+read: 009 OOOOXXXX......xOO
+
+read: 010 ...OOOXXXX...XxXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (O): [8, 16]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 ..XX.............
+
+read: 007 .XXXX............
+
+read: 008 XXOXXXX.........o
+
+read: 009 OOOOXXXX......XOo
+
+read: 010 ...OOOXXXX...XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (X): [7, 0]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 ..XX.............
+
+read: 007 xxXXX............
+
+read: 008 XXOXXXX.........O
+
+read: 009 OOOOXXXX......XOO
+
+read: 010 ...OOOXXXX...XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: ***
+
+read: <got (O): [8, 14]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 ..XX.............
+
+read: 007 XXXXX............
+
+read: 008 XXOXXXX.......ooo
+
+read: 009 OOOOXXXX......XOO
+
+read: 010 ...OOOXXXX...XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: ***
+
+read: ...
+
+read: <got (X): [9, 12]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 ..XX.............
+
+read: 007 XXXXX............
+
+read: 008 XXOXXXX.......OOO
+
+read: 009 OOOOXXXX....xxxOO
+
+read: 010 ...OOOXXXX...XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (O): [7, 15]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 ..XX.............
+
+read: 007 XXXXX..........o.
+
+read: 008 XXOXXXX.......OoO
+
+read: 009 OOOOXXXX....XXXOO
+
+read: 010 ...OOOXXXX...XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: *..
+
+read: ***
+
+read: <got (X): [9, 9]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 ..XX.............
+
+read: 007 XXXXX..........O.
+
+read: 008 XXOXXXX.......OOO
+
+read: 009 OOOOXXXX.x..XXXOO
+
+read: 010 ...OOOXXXxxx.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (O): [7, 15]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 ..XX.............
+
+read: 007 XXXXX..........oo
+
+read: 008 XXOXXXX.......OOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (X): [8, 13]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 ..XX.............
+
+read: 007 XXXXX..........OO
+
+read: 008 XXOXXXX......xOOO
+
+read: 009 OOOOXXXX.X..XxXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (O): [7, 14]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 ..XX.............
+
+read: 007 XXXXX.........ooO
+
+read: 008 XXOXXXX......XOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: ...
+
+read: .**
+
+read: <got (X): [7, 11]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 ..XX.............
+
+read: 007 XXXXX.........OOO
+
+read: 008 XXOXXXX.....xxOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (O): [6, 15]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 .................
+
+read: 006 ..XX...........o.
+
+read: 007 XXXXX.........OoO
+
+read: 008 XXOXXXX.....XXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: .*
+
+read: **
+
+read: <got (X): [5, 1]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 ..x..............
+
+read: 006 .xxX...........O.
+
+read: 007 XXXXX.........OOO
+
+read: 008 XXOXXXX.....XXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: *..
+
+read: *..
+
+read: <got (O): [5, 15]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 ..X............o.
+
+read: 006 .XXX...........o.
+
+read: 007 XXXXX.........OOO
+
+read: 008 XXOXXXX.....XXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: **.
+
+read: ...
+
+read: <got (X): [6, 0]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 ..X............O.
+
+read: 006 xxXX...........O.
+
+read: 007 XXXXX.........OOO
+
+read: 008 XXOXXXX.....XXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: *..
+
+read: ***
+
+read: <got (O): [6, 12]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 ..X............O.
+
+read: 006 XXXX........o..O.
+
+read: 007 XXXXX.......oooOO
+
+read: 008 XXOXXXX.....XXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: **
+
+read: ..
+
+read: <got (X): [8, 11]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 ..X............O.
+
+read: 006 XXXX........O..O.
+
+read: 007 XXXXX.......OOOOO
+
+read: 008 XXOXXXX....xxXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: ***
+
+read: <got (O): [6, 13]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 ..X............O.
+
+read: 006 XXXX........Oooo.
+
+read: 007 XXXXX.......OOOOO
+
+read: 008 XXOXXXX....XXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (X): [8, 10]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 ..X............O.
+
+read: 006 XXXX........OOOO.
+
+read: 007 XXXXX.......OOOOO
+
+read: 008 XXOXXXX...xxXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (O): [7, 11]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 ..X............O.
+
+read: 006 XXXX........OOOO.
+
+read: 007 XXXXX......ooOOOO
+
+read: 008 XXOXXXX...XXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: ..*
+
+read: ***
+
+read: <got (X): [7, 8]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 ..X............O.
+
+read: 006 XXXX........OOOO.
+
+read: 007 XXXXX.....xOOOOOO
+
+read: 008 XXOXXXX.xxxXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: ***
+
+read: <got (O): [5, 13]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 ..X..........ooo.
+
+read: 006 XXXX........OOOO.
+
+read: 007 XXXXX.....XOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: .**
+
+read: <got (X): [7, 8]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 ..X..........OOO.
+
+read: 006 XXXX........OOOO.
+
+read: 007 XXXXX....xxOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: ...
+
+read: ***
+
+read: <got (O): [5, 10]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 ..X..........OOO.
+
+read: 006 XXXX......oooOOO.
+
+read: 007 XXXXX....XXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (X): [7, 8]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 ..X..........OOO.
+
+read: 006 XXXX......OOOOOO.
+
+read: 007 XXXXX...xxXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: ***
+
+read: <got (O): [5, 11]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 ..X........oooOO.
+
+read: 006 XXXX......OOOOOO.
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: .*
+
+read: .*
+
+read: <got (X): [6, 8]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 .................
+
+read: 005 ..X........OOOOO.
+
+read: 006 XXXX.....xOOOOOO.
+
+read: 007 XXXXX...XxXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: *.
+
+read: *.
+
+read: <got (O): [4, 12]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 ............o....
+
+read: 005 ..X........OoOOO.
+
+read: 006 XXXX.....XOOOOOO.
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: .**
+
+read: ...
+
+read: <got (X): [6, 7]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 ............O....
+
+read: 005 ..X........OOOOO.
+
+read: 006 XXXX....xxOOOOOO.
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: *.
+
+read: *.
+
+read: <got (O): [4, 13]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 ............Oo...
+
+read: 005 ..X........OOoOO.
+
+read: 006 XXXX....XXOOOOOO.
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (X): [6, 3]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .................
+
+read: 004 ............OO...
+
+read: 005 ..X........OOOOO.
+
+read: 006 XXXxx...XXOOOOOO.
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (O): [3, 13]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .............o...
+
+read: 004 ............Oo...
+
+read: 005 ..X........OOOOO.
+
+read: 006 XXXXX...XXOOOOOO.
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (X): [5, 9]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .............O...
+
+read: 004 ............OO...
+
+read: 005 ..X......x.OOOOO.
+
+read: 006 XXXXX...XxOOOOOO.
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: *.
+
+read: *.
+
+read: <got (O): [4, 14]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .............O...
+
+read: 004 ............OOo..
+
+read: 005 ..X......X.OOOoO.
+
+read: 006 XXXXX...XXOOOOOO.
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (X): [4, 9]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .............O...
+
+read: 004 .........x..OOO..
+
+read: 005 ..X......x.OOOOO.
+
+read: 006 XXXXX...XXOOOOOO.
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (O): [6, 15]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .............O...
+
+read: 004 .........X..OOO..
+
+read: 005 ..X......X.OOOOO.
+
+read: 006 XXXXX...XXOOOOOoo
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: .*
+
+read: **
+
+read: <got (X): [4, 9]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 .............O...
+
+read: 004 .........Xx.OOO..
+
+read: 005 ..X......xxOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (O): [3, 12]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 ............oO...
+
+read: 004 .........XX.oOO..
+
+read: 005 ..X......XXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: .**
+
+read: <got (X): [4, 9]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .................
+
+read: 003 ............OO...
+
+read: 004 .........XxxOOO..
+
+read: 005 ..X......XXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: *.
+
+read: *.
+
+read: <got (O): [2, 13]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .............o...
+
+read: 003 ............Oo...
+
+read: 004 .........XXXOOO..
+
+read: 005 ..X......XXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: .**
+
+read: ...
+
+read: <got (X): [5, 7]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .............O...
+
+read: 003 ............OO...
+
+read: 004 .........XXXOOO..
+
+read: 005 ..X.....xxXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: **
+
+read: ..
+
+read: <got (O): [4, 14]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .............O...
+
+read: 003 ............OO...
+
+read: 004 .........XXXOOoo.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (X): [3, 11]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .............O...
+
+read: 003 ...........xOO...
+
+read: 004 .........XXxOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (O): [2, 13]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 .............oo..
+
+read: 003 ...........XOO...
+
+read: 004 .........XXXOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: *.
+
+read: *.
+
+read: <got (X): [2, 11]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 ...........x.OO..
+
+read: 003 ...........xOO...
+
+read: 004 .........XXXOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: .**
+
+read: <got (O): [2, 13]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 ...........X.Ooo.
+
+read: 003 ...........XOO...
+
+read: 004 .........XXXOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: **.
+
+read: <got (X): [2, 11]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 ...........xxOOO.
+
+read: 003 ...........XOO...
+
+read: 004 .........XXXOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (O): [3, 13]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 ...........XXOOO.
+
+read: 003 ...........XOoo..
+
+read: 004 .........XXXOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: .**
+
+read: <got (X): [2, 9]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .................
+
+read: 002 ..........xxXOOO.
+
+read: 003 ...........XOOO..
+
+read: 004 .........XXXOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: *.
+
+read: *.
+
+read: <got (O): [1, 13]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 .............o...
+
+read: 002 ..........XXXoOO.
+
+read: 003 ...........XOOO..
+
+read: 004 .........XXXOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: *.
+
+read: *.
+
+read: <got (X): [1, 12]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 ............xO...
+
+read: 002 ..........XXxOOO.
+
+read: 003 ...........XOOO..
+
+read: 004 .........XXXOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: .**
+
+read: <got (O): [2, 14]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .................
+
+read: 001 ............XO...
+
+read: 002 ..........XXXOOoo
+
+read: 003 ...........XOOO..
+
+read: 004 .........XXXOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: *..
+
+read: **.
+
+read: <got (X): [0, 11]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ...........x.....
+
+read: 001 ...........xxO...
+
+read: 002 ..........XXXOOOO
+
+read: 003 ...........XOOO..
+
+read: 004 .........XXXOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: *.
+
+read: **
+
+read: <got (O): [0, 13]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ...........X.o...
+
+read: 001 ...........XXoo..
+
+read: 002 ..........XXXOOOO
+
+read: 003 ...........XOOO..
+
+read: 004 .........XXXOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.X..XXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: .*
+
+read: **
+
+read: <got (X): [8, 10]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ...........X.O...
+
+read: 001 ...........XXOO..
+
+read: 002 ..........XXXOOOO
+
+read: 003 ...........XOOO..
+
+read: 004 .........XXXOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXxXXOOO
+
+read: 009 OOOOXXXX.XxxXXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: **
+
+read: ..
+
+read: <got (O): [0, 12]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ...........Xoo...
+
+read: 001 ...........XXOO..
+
+read: 002 ..........XXXOOOO
+
+read: 003 ...........XOOO..
+
+read: 004 .........XXXOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.XXXXXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: **
+
+read: **
+
+read: <got (X): [2, 9]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ...........XOO...
+
+read: 001 ...........XXOO..
+
+read: 002 .........xxXXOOOO
+
+read: 003 .........xxXOOO..
+
+read: 004 .........XXXOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.XXXXXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ....OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: *.
+
+read: *.
+
+read: <got (O): [11, 2]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ...........XOO...
+
+read: 001 ...........XXOO..
+
+read: 002 .........XXXXOOOO
+
+read: 003 .........XXXOOO..
+
+read: 004 .........XXXOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.XXXXXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..oOOOOOOXXXXXXOO
+
+read: 012 ..o.OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: .**
+
+read: <got (X): [0, 9]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ..........xxOO...
+
+read: 001 ...........XXOO..
+
+read: 002 .........XXXXOOOO
+
+read: 003 .........XXXOOO..
+
+read: 004 .........XXXOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.XXXXXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ..O.OOOOOOXXXXXOO
+
+read: 013 ......OOOOOXXXXOO
+
+read: 014 .....OOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: **
+
+read: **
+
+read: <got (O): [13, 4]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ..........XXOO...
+
+read: 001 ...........XXOO..
+
+read: 002 .........XXXXOOOO
+
+read: 003 .........XXXOOO..
+
+read: 004 .........XXXOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXX.XXXXXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ..O.OOOOOOXXXXXOO
+
+read: 013 ....ooOOOOOXXXXOO
+
+read: 014 ....ooOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: *..
+
+read: *..
+
+read: <got (X): [9, 8]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ..........XXOO...
+
+read: 001 ...........XXOO..
+
+read: 002 .........XXXXOOOO
+
+read: 003 .........XXXOOO..
+
+read: 004 .........XXXOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXXxXXXXXXOO
+
+read: 010 ...OOOXXxXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ..O.OOOOOOXXXXXOO
+
+read: 013 ....OOOOOOOXXXXOO
+
+read: 014 ....OOOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: ***
+
+read: <got (O): [1, 14]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ..........XXOO...
+
+read: 001 ...........XXOooo
+
+read: 002 .........XXXXOOOO
+
+read: 003 .........XXXOOO..
+
+read: 004 .........XXXOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ..O.OOOOOOXXXXXOO
+
+read: 013 ....OOOOOOOXXXXOO
+
+read: 014 ....OOOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: **.
+
+read: <got (X): [1, 10]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ..........XXOO...
+
+read: 001 ..........xxXOOOO
+
+read: 002 .........XXXXOOOO
+
+read: 003 .........XXXOOO..
+
+read: 004 .........XXXOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ..O.OOOOOOXXXXXOO
+
+read: 013 ....OOOOOOOXXXXOO
+
+read: 014 ....OOOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: ***
+
+read: ...
+
+read: <got (O): [0, 13]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ..........XXOooo.
+
+read: 001 ..........XXXOOOO
+
+read: 002 .........XXXXOOOO
+
+read: 003 .........XXXOOO..
+
+read: 004 .........XXXOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXX...XXOOOOOOO
+
+read: 007 XXXXX...XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ..O.OOOOOOXXXXXOO
+
+read: 013 ....OOOOOOOXXXXOO
+
+read: 014 ....OOOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: .**
+
+read: ***
+
+read: <got (X): [6, 4]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ..........XXOOOO.
+
+read: 001 ..........XXXOOOO
+
+read: 002 .........XXXXOOOO
+
+read: 003 .........XXXOOO..
+
+read: 004 .........XXXOOOO.
+
+read: 005 ..X.....XXXOOOOO.
+
+read: 006 XXXXXxx.XXOOOOOOO
+
+read: 007 XXXXxxx.XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ..O.OOOOOOXXXXXOO
+
+read: 013 ....OOOOOOOXXXXOO
+
+read: 014 ....OOOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: .*.
+
+read: **.
+
+read: <got (O): [4, 15]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ..........XXOOOO.
+
+read: 001 ..........XXXOOOO
+
+read: 002 .........XXXXOOOO
+
+read: 003 .........XXXOOO..
+
+read: 004 .........XXXOOOOo
+
+read: 005 ..X.....XXXOOOOoo
+
+read: 006 XXXXXXX.XXOOOOOOO
+
+read: 007 XXXXXXX.XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ..O.OOOOOOXXXXXOO
+
+read: 013 ....OOOOOOOXXXXOO
+
+read: 014 ....OOOOOOOOOOOOO
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (X): [4, 8]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ..........XXOOOO.
+
+read: 001 ..........XXXOOOO
+
+read: 002 .........XXXXOOOO
+
+read: 003 .........XXXOOO..
+
+read: 004 ........xXXXOOOOO
+
+read: 005 ..X.....xXXOOOOOO
+
+read: 006 XXXXXXX.XXOOOOOOO
+
+read: 007 XXXXXXX.XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ..O.OOOOOOXXXXXOO
+
+read: 013 ....OOOOOOOXXXXOO
+
+read: 014 ....OOOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: .*
+
+read: **
+
+read: <got (O): [2, 15]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ..........XXOOOO.
+
+read: 001 ..........XXXOOOO
+
+read: 002 .........XXXXOOOo
+
+read: 003 .........XXXOOOoo
+
+read: 004 ........XXXXOOOOO
+
+read: 005 ..X.....XXXOOOOOO
+
+read: 006 XXXXXXX.XXOOOOOOO
+
+read: 007 XXXXXXX.XXXOOOOOO
+
+read: 008 XXOXXXX.XXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ..O.OOOOOOXXXXXOO
+
+read: 013 ....OOOOOOOXXXXOO
+
+read: 014 ....OOOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (X): [8, 6]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ..........XXOOOO.
+
+read: 001 ..........XXXOOOO
+
+read: 002 .........XXXXOOOO
+
+read: 003 .........XXXOOOOO
+
+read: 004 ........XXXXOOOOO
+
+read: 005 ..X.....XXXOOOOOO
+
+read: 006 XXXXXXX.XXOOOOOOO
+
+read: 007 XXXXXXX.XXXOOOOOO
+
+read: 008 XXOXXXxxXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ..O.OOOOOOXXXXXOO
+
+read: 013 ....OOOOOOOXXXXOO
+
+read: 014 ....OOOOOOOOOOOOO
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (O): [11, 3]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ..........XXOOOO.
+
+read: 001 ..........XXXOOOO
+
+read: 002 .........XXXXOOOO
+
+read: 003 .........XXXOOOOO
+
+read: 004 ........XXXXOOOOO
+
+read: 005 ..X.....XXXOOOOOO
+
+read: 006 XXXXXXX.XXOOOOOOO
+
+read: 007 XXXXXXX.XXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OoOOOOOXXXXXXOO
+
+read: 012 ..OoOOOOOOXXXXXOO
+
+read: 013 ....OOOOOOOXXXXOO
+
+read: 014 ....OOOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: **
+
+read: .*
+
+read: <got (X): [3, 7]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ..........XXOOOO.
+
+read: 001 ..........XXXOOOO
+
+read: 002 .........XXXXOOOO
+
+read: 003 .......xxXXXOOOOO
+
+read: 004 ........xXXXOOOOO
+
+read: 005 ..X.....XXXOOOOOO
+
+read: 006 XXXXXXX.XXOOOOOOO
+
+read: 007 XXXXXXX.XXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 ...OOOXXXXXX.XXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ..OOOOOOOOXXXXXOO
+
+read: 013 ....OOOOOOOXXXXOO
+
+read: 014 ....OOOOOOOOOOOOO
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (O): [10, 2]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ..........XXOOOO.
+
+read: 001 ..........XXXOOOO
+
+read: 002 .........XXXXOOOO
+
+read: 003 .......XXXXXOOOOO
+
+read: 004 ........XXXXOOOOO
+
+read: 005 ..X.....XXXOOOOOO
+
+read: 006 XXXXXXX.XXOOOOOOO
+
+read: 007 XXXXXXX.XXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 ..oOOOXXXXXX.XXXO
+
+read: 011 ..oOOOOOOXXXXXXOO
+
+read: 012 ..OOOOOOOOXXXXXOO
+
+read: 013 ....OOOOOOOXXXXOO
+
+read: 014 ....OOOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: **
+
+read: ..
+
+read: <got (X): [10, 11]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ..........XXOOOO.
+
+read: 001 ..........XXXOOOO
+
+read: 002 .........XXXXOOOO
+
+read: 003 .......XXXXXOOOOO
+
+read: 004 ........XXXXOOOOO
+
+read: 005 ..X.....XXXOOOOOO
+
+read: 006 XXXXXXX.XXOOOOOOO
+
+read: 007 XXXXXXX.XXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 ..OOOOXXXXXxxXXXO
+
+read: 011 ..OOOOOOOXXXXXXOO
+
+read: 012 ..OOOOOOOOXXXXXOO
+
+read: 013 ....OOOOOOOXXXXOO
+
+read: 014 ....OOOOOOOOOOOOO
+
+read: Piece 4 3:
+
+read: .*.
+
+read: .**
+
+read: ***
+
+read: **.
+
+read: <got (O): [11, 0]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ..........XXOOOO.
+
+read: 001 ..........XXXOOOO
+
+read: 002 .........XXXXOOOO
+
+read: 003 .......XXXXXOOOOO
+
+read: 004 ........XXXXOOOOO
+
+read: 005 ..X.....XXXOOOOOO
+
+read: 006 XXXXXXX.XXOOOOOOO
+
+read: 007 XXXXXXX.XXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 ..OOOOXXXXXXXXXXO
+
+read: 011 .oOOOOOOOXXXXXXOO
+
+read: 012 .ooOOOOOOOXXXXXOO
+
+read: 013 ooo.OOOOOOOXXXXOO
+
+read: 014 oo..OOOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: .**
+
+read: ...
+
+read: <got (X): [0, 8]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .........xxXOOOO.
+
+read: 001 ..........XXXOOOO
+
+read: 002 .........XXXXOOOO
+
+read: 003 .......XXXXXOOOOO
+
+read: 004 ........XXXXOOOOO
+
+read: 005 ..X.....XXXOOOOOO
+
+read: 006 XXXXXXX.XXOOOOOOO
+
+read: 007 XXXXXXX.XXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 ..OOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOO.OOOOOOOXXXXOO
+
+read: 014 OO..OOOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: *.
+
+read: *.
+
+read: <got (O): [13, 2]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .........XXXOOOO.
+
+read: 001 ..........XXXOOOO
+
+read: 002 .........XXXXOOOO
+
+read: 003 .......XXXXXOOOOO
+
+read: 004 ........XXXXOOOOO
+
+read: 005 ..X.....XXXOOOOOO
+
+read: 006 XXXXXXX.XXOOOOOOO
+
+read: 007 XXXXXXX.XXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 ..OOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOo.OOOOOOOXXXXOO
+
+read: 014 OOo.OOOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: **
+
+read: **
+
+read: <got (X): [1, 8]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .........XXXOOOO.
+
+read: 001 ........xxXXXOOOO
+
+read: 002 ........xxXXXOOOO
+
+read: 003 .......XXXXXOOOOO
+
+read: 004 ........XXXXOOOOO
+
+read: 005 ..X.....XXXOOOOOO
+
+read: 006 XXXXXXX.XXOOOOOOO
+
+read: 007 XXXXXXX.XXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 ..OOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOO.OOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: ...
+
+read: **.
+
+read: <got (O): [12, 2]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .........XXXOOOO.
+
+read: 001 ........XXXXXOOOO
+
+read: 002 ........XXXXXOOOO
+
+read: 003 .......XXXXXOOOOO
+
+read: 004 ........XXXXOOOOO
+
+read: 005 ..X.....XXXOOOOOO
+
+read: 006 XXXXXXX.XXOOOOOOO
+
+read: 007 XXXXXXX.XXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 ..OOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOooOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (X): [4, 7]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .........XXXOOOO.
+
+read: 001 ........XXXXXOOOO
+
+read: 002 ........XXXXXOOOO
+
+read: 003 .......XXXXXOOOOO
+
+read: 004 .......xxXXXOOOOO
+
+read: 005 ..X.....XXXOOOOOO
+
+read: 006 XXXXXXX.XXOOOOOOO
+
+read: 007 XXXXXXX.XXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 ..OOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: ***
+
+read: <got (O): [10, 0]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .........XXXOOOO.
+
+read: 001 ........XXXXXOOOO
+
+read: 002 ........XXXXXOOOO
+
+read: 003 .......XXXXXOOOOO
+
+read: 004 .......XXXXXOOOOO
+
+read: 005 ..X.....XXXOOOOOO
+
+read: 006 XXXXXXX.XXOOOOOOO
+
+read: 007 XXXXXXX.XXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 oooOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (X): [5, 7]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .........XXXOOOO.
+
+read: 001 ........XXXXXOOOO
+
+read: 002 ........XXXXXOOOO
+
+read: 003 .......XXXXXOOOOO
+
+read: 004 .......XXXXXOOOOO
+
+read: 005 ..X....xxXXOOOOOO
+
+read: 006 XXXXXXX.XXOOOOOOO
+
+read: 007 XXXXXXX.XXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: ***
+
+read: <got (O): [0, 0]
+
+read: Piece 2 2:
+
+read: **
+
+read: **
+
+read: <got (X): [4, 1]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .........XXXOOOO.
+
+read: 001 ........XXXXXOOOO
+
+read: 002 ........XXXXXOOOO
+
+read: 003 .......XXXXXOOOOO
+
+read: 004 .xx....XXXXXOOOOO
+
+read: 005 .xx....XXXXOOOOOO
+
+read: 006 XXXXXXX.XXOOOOOOO
+
+read: 007 XXXXXXX.XXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (X): [5, 0]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .........XXXOOOO.
+
+read: 001 ........XXXXXOOOO
+
+read: 002 ........XXXXXOOOO
+
+read: 003 .......XXXXXOOOOO
+
+read: 004 .XX....XXXXXOOOOO
+
+read: 005 xXX....XXXXOOOOOO
+
+read: 006 xXXXXXX.XXOOOOOOO
+
+read: 007 XXXXXXX.XXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: ***
+
+read: ***
+
+read: <got (X): [2, 5]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .........XXXOOOO.
+
+read: 001 ........XXXXXOOOO
+
+read: 002 .....xxxXXXXXOOOO
+
+read: 003 .....xxxXXXXOOOOO
+
+read: 004 .XX....XXXXXOOOOO
+
+read: 005 XXX....XXXXOOOOOO
+
+read: 006 XXXXXXX.XXOOOOOOO
+
+read: 007 XXXXXXX.XXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: ...
+
+read: .**
+
+read: <got (X): [5, 6]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .........XXXOOOO.
+
+read: 001 ........XXXXXOOOO
+
+read: 002 .....XXXXXXXXOOOO
+
+read: 003 .....XXXXXXXOOOOO
+
+read: 004 .XX....XXXXXOOOOO
+
+read: 005 XXX....XXXXOOOOOO
+
+read: 006 XXXXXXXxxXOOOOOOO
+
+read: 007 XXXXXXX.XXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: .**
+
+read: <got (X): [7, 6]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .........XXXOOOO.
+
+read: 001 ........XXXXXOOOO
+
+read: 002 .....XXXXXXXXOOOO
+
+read: 003 .....XXXXXXXOOOOO
+
+read: 004 .XX....XXXXXOOOOO
+
+read: 005 XXX....XXXXOOOOOO
+
+read: 006 XXXXXXXXXXOOOOOOO
+
+read: 007 XXXXXXXxxXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (X): [5, 2]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .........XXXOOOO.
+
+read: 001 ........XXXXXOOOO
+
+read: 002 .....XXXXXXXXOOOO
+
+read: 003 .....XXXXXXXOOOOO
+
+read: 004 .XX....XXXXXOOOOO
+
+read: 005 XXxx...XXXXOOOOOO
+
+read: 006 XXXXXXXXXXOOOOOOO
+
+read: 007 XXXXXXXXXXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: *.
+
+read: *.
+
+read: <got (X): [5, 4]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .........XXXOOOO.
+
+read: 001 ........XXXXXOOOO
+
+read: 002 .....XXXXXXXXOOOO
+
+read: 003 .....XXXXXXXOOOOO
+
+read: 004 .XX....XXXXXOOOOO
+
+read: 005 XXXXx..XXXXOOOOOO
+
+read: 006 XXXXxXXXXXOOOOOOO
+
+read: 007 XXXXXXXXXXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: ***
+
+read: ...
+
+read: <got (X): [5, 4]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 .........XXXOOOO.
+
+read: 001 ........XXXXXOOOO
+
+read: 002 .....XXXXXXXXOOOO
+
+read: 003 .....XXXXXXXOOOOO
+
+read: 004 .XX....XXXXXOOOOO
+
+read: 005 XXXXxxxXXXXOOOOOO
+
+read: 006 XXXXXXXXXXOOOOOOO
+
+read: 007 XXXXXXXXXXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: .**
+
+read: <got (X): [0, 7]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ........xxXXOOOO.
+
+read: 001 ........XXXXXOOOO
+
+read: 002 .....XXXXXXXXOOOO
+
+read: 003 .....XXXXXXXOOOOO
+
+read: 004 .XX....XXXXXOOOOO
+
+read: 005 XXXXXXXXXXXOOOOOO
+
+read: 006 XXXXXXXXXXOOOOOOO
+
+read: 007 XXXXXXXXXXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (X): [4, 6]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ........XXXXOOOO.
+
+read: 001 ........XXXXXOOOO
+
+read: 002 .....XXXXXXXXOOOO
+
+read: 003 .....XXXXXXXOOOOO
+
+read: 004 .XX...xxXXXXOOOOO
+
+read: 005 XXXXXXXXXXXOOOOOO
+
+read: 006 XXXXXXXXXXOOOOOOO
+
+read: 007 XXXXXXXXXXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: .**
+
+read: <got (X): [1, 6]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ........XXXXOOOO.
+
+read: 001 .......xxXXXXOOOO
+
+read: 002 .....XXXXXXXXOOOO
+
+read: 003 .....XXXXXXXOOOOO
+
+read: 004 .XX...XXXXXXOOOOO
+
+read: 005 XXXXXXXXXXXOOOOOO
+
+read: 006 XXXXXXXXXXOOOOOOO
+
+read: 007 XXXXXXXXXXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: ***
+
+read: <got (X): [4, 2]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ........XXXXOOOO.
+
+read: 001 .......XXXXXXOOOO
+
+read: 002 .....XXXXXXXXOOOO
+
+read: 003 .....XXXXXXXOOOOO
+
+read: 004 .Xxxx.XXXXXXOOOOO
+
+read: 005 XXXXXXXXXXXOOOOOO
+
+read: 006 XXXXXXXXXXOOOOOOO
+
+read: 007 XXXXXXXXXXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: ***
+
+read: ...
+
+read: <got (X): [0, 6]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ......xxxXXXOOOO.
+
+read: 001 .......XXXXXXOOOO
+
+read: 002 .....XXXXXXXXOOOO
+
+read: 003 .....XXXXXXXOOOOO
+
+read: 004 .XXXX.XXXXXXOOOOO
+
+read: 005 XXXXXXXXXXXOOOOOO
+
+read: 006 XXXXXXXXXXOOOOOOO
+
+read: 007 XXXXXXXXXXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (X): [4, 0]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ......XXXXXXOOOO.
+
+read: 001 .......XXXXXXOOOO
+
+read: 002 .....XXXXXXXXOOOO
+
+read: 003 .....XXXXXXXOOOOO
+
+read: 004 xxXXX.XXXXXXOOOOO
+
+read: 005 XXXXXXXXXXXOOOOOO
+
+read: 006 XXXXXXXXXXOOOOOOO
+
+read: 007 XXXXXXXXXXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: *..
+
+read: **.
+
+read: <got (X): [3, 4]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ......XXXXXXOOOO.
+
+read: 001 .......XXXXXXOOOO
+
+read: 002 .....XXXXXXXXOOOO
+
+read: 003 ....xXXXXXXXOOOOO
+
+read: 004 XXXXxxXXXXXXOOOOO
+
+read: 005 XXXXXXXXXXXOOOOOO
+
+read: 006 XXXXXXXXXXOOOOOOO
+
+read: 007 XXXXXXXXXXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: ***
+
+read: <got (X): [1, 5]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ......XXXXXXOOOO.
+
+read: 001 .....xxxXXXXXOOOO
+
+read: 002 .....XXXXXXXXOOOO
+
+read: 003 ....XXXXXXXXOOOOO
+
+read: 004 XXXXXXXXXXXXOOOOO
+
+read: 005 XXXXXXXXXXXOOOOOO
+
+read: 006 XXXXXXXXXXOOOOOOO
+
+read: 007 XXXXXXXXXXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: *.
+
+read: *.
+
+read: <got (X): [3, 0]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ......XXXXXXOOOO.
+
+read: 001 .....XXXXXXXXOOOO
+
+read: 002 .....XXXXXXXXOOOO
+
+read: 003 x...XXXXXXXXOOOOO
+
+read: 004 xXXXXXXXXXXXOOOOO
+
+read: 005 XXXXXXXXXXXOOOOOO
+
+read: 006 XXXXXXXXXXOOOOOOO
+
+read: 007 XXXXXXXXXXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 2 1:
+
+read: *
+
+read: *
+
+read: <got (X): [3, 1]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ......XXXXXXOOOO.
+
+read: 001 .....XXXXXXXXOOOO
+
+read: 002 .....XXXXXXXXOOOO
+
+read: 003 Xx..XXXXXXXXOOOOO
+
+read: 004 XxXXXXXXXXXXOOOOO
+
+read: 005 XXXXXXXXXXXOOOOOO
+
+read: 006 XXXXXXXXXXOOOOOOO
+
+read: 007 XXXXXXXXXXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: ***
+
+read: <got (X): [3, 1]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ......XXXXXXOOOO.
+
+read: 001 .....XXXXXXXXOOOO
+
+read: 002 .....XXXXXXXXOOOO
+
+read: 003 XxxxXXXXXXXXOOOOO
+
+read: 004 XXXXXXXXXXXXOOOOO
+
+read: 005 XXXXXXXXXXXOOOOOO
+
+read: 006 XXXXXXXXXXOOOOOOO
+
+read: 007 XXXXXXXXXXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: ***
+
+read: .*.
+
+read: <got (X): [2, 0]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ......XXXXXXOOOO.
+
+read: 001 .....XXXXXXXXOOOO
+
+read: 002 xxx..XXXXXXXXOOOO
+
+read: 003 XxXXXXXXXXXXOOOOO
+
+read: 004 XXXXXXXXXXXXOOOOO
+
+read: 005 XXXXXXXXXXXOOOOOO
+
+read: 006 XXXXXXXXXXOOOOOOO
+
+read: 007 XXXXXXXXXXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: ***
+
+read: .**
+
+read: <got (X): [0, 3]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ...xxxXXXXXXOOOO.
+
+read: 001 ....xxXXXXXXXOOOO
+
+read: 002 XXX..XXXXXXXXOOOO
+
+read: 003 XXXXXXXXXXXXOOOOO
+
+read: 004 XXXXXXXXXXXXOOOOO
+
+read: 005 XXXXXXXXXXXOOOOOO
+
+read: 006 XXXXXXXXXXOOOOOOO
+
+read: 007 XXXXXXXXXXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (X): [2, 4]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ...XXXXXXXXXOOOO.
+
+read: 001 ....XXXXXXXXXOOOO
+
+read: 002 XXX.xxXXXXXXXOOOO
+
+read: 003 XXXXXXXXXXXXOOOOO
+
+read: 004 XXXXXXXXXXXXOOOOO
+
+read: 005 XXXXXXXXXXXOOOOOO
+
+read: 006 XXXXXXXXXXOOOOOOO
+
+read: 007 XXXXXXXXXXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 2 2:
+
+read: **
+
+read: ..
+
+read: <got (X): [2, 2]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ...XXXXXXXXXOOOO.
+
+read: 001 ....XXXXXXXXXOOOO
+
+read: 002 XXxxXXXXXXXXXOOOO
+
+read: 003 XXXXXXXXXXXXOOOOO
+
+read: 004 XXXXXXXXXXXXOOOOO
+
+read: 005 XXXXXXXXXXXOOOOOO
+
+read: 006 XXXXXXXXXXOOOOOOO
+
+read: 007 XXXXXXXXXXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 1 3:
+
+read: ***
+
+read: <got (X): [1, 2]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ...XXXXXXXXXOOOO.
+
+read: 001 ..xxxXXXXXXXXOOOO
+
+read: 002 XXXXXXXXXXXXXOOOO
+
+read: 003 XXXXXXXXXXXXOOOOO
+
+read: 004 XXXXXXXXXXXXOOOOO
+
+read: 005 XXXXXXXXXXXOOOOOO
+
+read: 006 XXXXXXXXXXOOOOOOO
+
+read: 007 XXXXXXXXXXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 1 2:
+
+read: **
+
+read: <got (X): [1, 1]
+
+read: Plateau 15 17:
+
+read:     01234567890123456
+
+read: 000 ...XXXXXXXXXOOOO.
+
+read: 001 .xxXXXXXXXXXXOOOO
+
+read: 002 XXXXXXXXXXXXXOOOO
+
+read: 003 XXXXXXXXXXXXOOOOO
+
+read: 004 XXXXXXXXXXXXOOOOO
+
+read: 005 XXXXXXXXXXXOOOOOO
+
+read: 006 XXXXXXXXXXOOOOOOO
+
+read: 007 XXXXXXXXXXXOOOOOO
+
+read: 008 XXOXXXXXXXXXXXOOO
+
+read: 009 OOOOXXXXXXXXXXXOO
+
+read: 010 OOOOOOXXXXXXXXXXO
+
+read: 011 .OOOOOOOOXXXXXXOO
+
+read: 012 .OOOOOOOOOXXXXXOO
+
+read: 013 OOOOOOOOOOOXXXXOO
+
+read: 014 OOO.OOOOOOOOOOOOO
+
+read: Piece 2 3:
+
+read: ***
+
+read: .**
+
+read: <got (X): [0, 0]
+
+read: ./tjuzen.filler: Segfault at 94
+
+read: == O fin: 69
+
