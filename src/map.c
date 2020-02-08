@@ -1,50 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   filler.h                                           :+:      :+:    :+:   */
+/*   map.c                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/01/24 13:46:05 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/02/08 16:19:37 by hde-ghel         ###   ########.fr       */
+/*   Created: 2020/02/08 12:30:43 by hde-ghel          #+#    #+#             */
+/*   Updated: 2020/02/08 16:19:17 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FILLER_H
-# define FILLER_H
+# include "../include/filler.h"
 
-# include "../libft/libft.h"
-# include <fcntl.h>
-
-# include <stdio.h>
-
-typedef	struct	s_xy
+t_xy	check_size(t_filler *env, char *line)
 {
-	int		x;
-	int		y;
-}				t_xy;
+	int		i;
+	t_xy	size;
 
+	i = 0;
+	while (!ft_isdigit(line[i]))
+		i++;
+	size.y = ft_atoi(&line[i]);
+	while (!ft_isdigit(line[i]))
+		i++;
+	size.x = ft_atoi(&line[i]);
+	return (size);
+}
 
-typedef	struct	s_filler
+int		map_allocation(t_filler *env)
 {
-	char	**map;
-	char	**piece;
-	char	player;
-	int		end;
-	t_xy	c_map;
-	t_xy	c_piece;
-
-
-	FILE		*fd_log;
-}				t_filler;
-
-/*
-** Map.c
-*/
-t_xy		check_size(t_filler *env, char *line);
-int			map_allocation(t_filler *env);
-
-
-
-
-#endif
+	env->c_map = check_size()
+}
