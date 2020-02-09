@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/24 13:46:05 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/02/08 16:19:37 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/02/09 16:21:08 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,15 +36,21 @@ typedef	struct	s_filler
 
 
 	FILE		*fd_log;
+	int			fd;
 }				t_filler;
 
 /*
-** Map.c
+** map.c
 */
-t_xy		check_size(t_filler *env, char *line);
-int			map_allocation(t_filler *env);
+int			map_allocation(t_filler *env, char *line);
+int			piece_allocation(t_filler *env);
+void		fill_piece(t_filler *env);
+void		fill_map(t_filler *env);
 
-
+/*
+** filler_algo.c
+*/
+int		algo(t_filler *env);
 
 
 #endif
