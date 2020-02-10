@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/03 18:40:39 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/02/09 19:56:52 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/02/10 18:05:55 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ int		get_player(t_filler *env)
 		env->player = 'O';
 	else if (ft_strstr(line, "p2"))
 		env->player = 'X';
+	env->enemy = (env->player == 'O') ? 'X' : 'O';
 	ft_strdel(&line);
 //print player
 	ft_putstr_fd("Player =", env->fd);
@@ -35,9 +36,19 @@ int		play(t_filler *env, char *line)
 
 	if (map_allocation(env, line) == -1)
 		return (-1);
-	if (!(piece_allocation(env)))
+	if ((piece_allocation(env)) == -1)
 		return (-1);//FREE_MAP
 	algo(env);
+	ft_putnbr(env->c_place.y);
+	ft_putchar(' ');
+	ft_putnbr(env->c_place.x);
+	ft_putchar('\n');
+
+	ft_putstr_fd("\ngrosse pute", env->fd);
+	ft_putnbr_fd(env->c_place.y, env->fd);
+	ft_putchar_fd(' ', env->fd);
+	ft_putnbr_fd(env->c_place.x, env->fd);
+	ft_putstr_fd("\n", env->fd);
 		//free_all();
 	return (0);
 }
@@ -64,7 +75,7 @@ int	main(void)
 
 	ft_bzero(&env, sizeof(t_filler));
 	env.fd = open("/Users/hde-ghel/Desktop/repo_19/filler/log/log2", O_WRONLY);
-	
+
 	if (get_player(&env) == -1)
 		return (-1);
 	while (1)

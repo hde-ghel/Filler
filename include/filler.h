@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/24 13:46:05 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/02/09 19:50:24 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/02/10 17:14:35 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,9 +30,12 @@ typedef	struct	s_filler
 	char	**map;
 	char	**piece;
 	char	player;
+	char	enemy;
 	int		end;
 	t_xy	c_map;
 	t_xy	c_piece;
+	t_xy	c_place;
+	int		overlap;
 
 
 	FILE		*fd_log;
