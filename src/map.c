@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/08 12:30:43 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/02/10 17:30:14 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/02/11 13:12:10 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,12 +52,13 @@ int		map_allocation(t_filler *env, char *line)
 	while (count.y < env->c_map.y)
 	{
 		if (get_next_line(0, &tmp) < 0)
-			return (-1);//FREE TAB + FREE MAP
+			return (-1);//FREE MAP
 		env->map[count.y++] = ft_strdup(tmp + skip_tomap(tmp));//Protectio + free
 		ft_strdel(&tmp);
 	}
 	env->map[count.y] = NULL;
 	count.y = 0;
+	//print_fd
 	print_map_info(env);
 	return (0);
 }
@@ -82,6 +83,7 @@ int		piece_allocation(t_filler *env)
 		ft_strdel(&tmp);
 	}
 	env->piece[count] = NULL;
+	//print_fd
 	print_piece_info(env);
 	return (0);
 }

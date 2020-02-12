@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/03 18:40:39 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/02/10 18:05:55 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/02/11 17:55:50 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,9 +25,7 @@ int		get_player(t_filler *env)
 	env->enemy = (env->player == 'O') ? 'X' : 'O';
 	ft_strdel(&line);
 //print player
-	ft_putstr_fd("Player =", env->fd);
-	ft_putchar_fd(env->player, env->fd);
-	ft_putstr_fd("\n", env->fd);
+	print_player(env);
 	return (0);
 }
 
@@ -37,19 +35,18 @@ int		play(t_filler *env, char *line)
 	if (map_allocation(env, line) == -1)
 		return (-1);
 	if ((piece_allocation(env)) == -1)
-		return (-1);//FREE_MAP
+	{
+		//FREE_MAP
+		return (-1);
+	}
+	env->c_place.y = 0;
+	env->c_place.x = 0;
 	algo(env);
-	ft_putnbr(env->c_place.y);
-	ft_putchar(' ');
-	ft_putnbr(env->c_place.x);
-	ft_putchar('\n');
+	//if ()
+	send_coord(env);
 
-	ft_putstr_fd("\ngrosse pute", env->fd);
-	ft_putnbr_fd(env->c_place.y, env->fd);
-	ft_putchar_fd(' ', env->fd);
-	ft_putnbr_fd(env->c_place.x, env->fd);
-	ft_putstr_fd("\n", env->fd);
-		//free_all();
+	//FREE_ALL
+
 	return (0);
 }
 
@@ -58,14 +55,18 @@ int		read_vm(t_filler *env)
 	int		gnl_check;
 	char	*line;
 
+	//ft_putstr_fd(, env->fd);
 	while ((gnl_check = get_next_line(0, &line)) > 0)
 	{
+		if (gnl_check < 0)
+			return (-1);
 		if (ft_strstr(line, "Plateau"))
-			play(env, line);//PROTECTION
+		{
+			if (play(env, line) == -1)
+				return (-1);
+		}
 		ft_strdel(&line);
 	}
-	if (gnl_check < 0)
-		return (-1);
 	return (0);
 }
 
@@ -76,13 +77,14 @@ int	main(void)
 	ft_bzero(&env, sizeof(t_filler));
 	env.fd = open("/Users/hde-ghel/Desktop/repo_19/filler/log/log2", O_WRONLY);
 
+
 	if (get_player(&env) == -1)
 		return (-1);
-	while (1)
-	{
+	//while (1)
+	//{
 		if (read_vm(&env) == -1)
 			return (-1);
-	}
+	//}
 	close(env.fd);
 	return (0);
 }

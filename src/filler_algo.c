@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/09 15:35:51 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/02/10 18:05:59 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/02/11 13:20:31 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,13 +14,6 @@
 
 int		check_piece_part(t_filler *env, t_xy m, t_xy p)
 {
-	ft_putstr_fd("coord = ", env->fd);
-	ft_putstr_fd(ft_itoa(m.y), env ->fd);
-	ft_putstr_fd(ft_itoa(m.x), env ->fd);
-	ft_putstr_fd("\n", env ->fd);
-	ft_putstr_fd(ft_itoa(p.x), env ->fd);
-	ft_putstr_fd(ft_itoa(p.y), env ->fd);
-	ft_putstr_fd("\n", env ->fd);
 	if ((m.y + p.y) >= 0 && (m.y + p.y) < env->c_map.y && (m.x + p.x) >= 0 &&
 			(m.x + p.x) < env->c_map.x)
 	{
@@ -73,10 +66,6 @@ int		algo(t_filler *env)
 		m.x = -env->c_piece.x;
 		while (m.x < env->c_map.x)
 		{
-		ft_putstr_fd("coord_map = ", env->fd);
-		ft_putstr_fd(ft_itoa(m.y), env ->fd);
-		ft_putstr_fd(ft_itoa(m.x), env ->fd);
-		ft_putstr_fd("\n", env ->fd);
 			if (!is_placable(env, m))
 				return (1);
 			m.x++;

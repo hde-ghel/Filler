@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/24 13:46:05 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/02/10 17:14:35 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/02/11 11:52:05 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,6 +58,7 @@ int		algo(t_filler *env);
 */
 void		print_map_info(t_filler *env);
 void		print_piece_info(t_filler *env);
-
+void		print_player(t_filler *env);
+void		send_coord(t_filler *env);
 
 #endif
