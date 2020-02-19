@@ -24,6 +24,18 @@ typedef	struct	s_xy
 	int		y;
 }				t_xy;
 
+typedef	struct	s_list_filler	t_list_filler;
+
+struct			s_list_filler
+{
+	int				coord_x;
+	int				coord_y;
+	int				max_x;
+	int				min_x;
+	int				max_y;
+	int				min_y;
+	t_list_filler	*next;
+};
 
 typedef	struct	s_filler
 {
@@ -51,7 +63,13 @@ int			piece_allocation(t_filler *env);
 /*
 ** filler_algo.c
 */
-int		algo(t_filler *env);
+int			list_possible(t_filler *env, t_list_filler **lst);
+
+/*
+** tools.c
+*/
+void		init_list(t_list_filler *list);
+void		fill_list(t_filler *env, t_list_filler *list, t_xy m);
 
 /*
 ** dev_tools.c

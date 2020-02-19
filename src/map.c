@@ -47,7 +47,7 @@ int		map_allocation(t_filler *env, char *line)
 	if (get_next_line(0, &tmp) < 0) //SKIP 0123456
 		return (-1);
 	ft_strdel(&tmp);
-	if (!(env->map = (char **)malloc(sizeof(char *) * env->c_map.y + 1)))
+	if (!(env->map = (char **)malloc(sizeof(char *) * (env->c_map.y + 1))))
 		return (-1);
 	while (count.y < env->c_map.y)
 	{
@@ -57,7 +57,6 @@ int		map_allocation(t_filler *env, char *line)
 		ft_strdel(&tmp);
 	}
 	env->map[count.y] = NULL;
-	count.y = 0;
 	//print_fd
 	print_map_info(env);
 	return (0);
@@ -73,7 +72,7 @@ int		piece_allocation(t_filler *env)
 		return (-1);
 	env->c_piece = check_size(env, tmp);
 	ft_strdel(&tmp);
-	if (!(env->piece = (char **)malloc(sizeof(char *) * env->c_piece.y + 1)))
+	if (!(env->piece = (char **)malloc(sizeof(char *) * (env->c_piece.y + 1))))
 		return (-1);
 	while (count < env->c_piece.y)
 	{

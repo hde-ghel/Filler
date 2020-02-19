@@ -47,15 +47,23 @@ int		is_placable(t_filler *env, t_xy m)
 		p.y++;
 	}
 	if (env->overlap == 1)
-	{
-		env->c_place.y = m.y;
-		env->c_place.x = m.x;
 		return (0);
-	}
 	return (-1);
 }
 
-int		algo(t_filler *env)
+t_list_filler	*add_link(t_filler *env, t_list_filler *list, t_xy m)
+{
+	t_list_filler	*new;
+
+	if (!(new = ft_memalloc(sizeof(t_list_filler))))
+		return (NULL);
+	init_list(new);
+	fill_list(env, new, m);
+	new->next = list;
+	return (new);
+}
+
+int		list_possible(t_filler *env, t_list_filler **lst)
 {
 	t_xy	m;
 
@@ -67,7 +75,8 @@ int		algo(t_filler *env)
 		while (m.x < env->c_map.x)
 		{
 			if (!is_placable(env, m))
-				return (1);
+				if (!(*lst = add_link(env, *lst, m)))
+					return (-1);
 			m.x++;
 		}
 		m.y++;

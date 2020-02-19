@@ -31,7 +31,9 @@ int		get_player(t_filler *env)
 
 int		play(t_filler *env, char *line)
 {
+	t_list_filler	*placable;
 
+	placable = NULL;
 	if (map_allocation(env, line) == -1)
 		return (-1);
 	if ((piece_allocation(env)) == -1)
@@ -41,8 +43,17 @@ int		play(t_filler *env, char *line)
 	}
 	env->c_place.y = 0;
 	env->c_place.x = 0;
-	algo(env);
-	//if ()
+	list_possible(env, &placable); //protection
+	if (placable == NULL)
+	{
+		env->c_place.x = 0;
+		env->c_place.y = 0;
+	}
+	else
+	{
+		env->c_place.x = placable->coord_x;
+		env->c_place.y = placable->coord_y;
+	}
 	send_coord(env);
 
 	//FREE_ALL
