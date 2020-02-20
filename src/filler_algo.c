@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/09 15:35:51 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/02/11 13:20:31 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/02/20 19:06:42 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,11 @@ int		check_piece_part(t_filler *env, t_xy m, t_xy p)
 	return (-1);
 }
 
+void		check_max()
+{
+
+}
+
 int		is_placable(t_filler *env, t_xy m)
 {
 	t_xy	p;
@@ -42,6 +47,7 @@ int		is_placable(t_filler *env, t_xy m)
 			if (env->piece[p.y][p.x] == '*')
 				if (check_piece_part(env, m, p) == -1)
 					return (-1);
+				check_max(env, m, p);
 			p.x++;
 		}
 		p.y++;
