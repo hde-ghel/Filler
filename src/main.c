@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/03 18:40:39 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/02/11 17:55:50 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/02/29 22:05:03 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,8 +51,9 @@ int		play(t_filler *env, char *line)
 	}
 	else
 	{
-		env->c_place.x = placable->coord_x;
-		env->c_place.y = placable->coord_y;
+		check_best_pos(env, placable);
+		//env->c_place.x = placable->coord.x;
+		//env->c_place.y = placable->coord.y;
 	}
 	send_coord(env);
 

@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/24 13:46:05 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/02/11 11:52:05 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/02/29 22:29:55 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,12 +28,11 @@ typedef	struct	s_list_filler	t_list_filler;
 
 struct			s_list_filler
 {
-	int				coord_x;
-	int				coord_y;
-	int				max_x;
-	int				min_x;
-	int				max_y;
-	int				min_y;
+	t_xy			coord;
+	t_xy			max_x;
+	t_xy			min_x;
+	t_xy			max_y;
+	t_xy			min_y;
 	t_list_filler	*next;
 };
 
@@ -48,6 +47,10 @@ typedef	struct	s_filler
 	t_xy	c_piece;
 	t_xy	c_place;
 	int		overlap;
+	t_xy	max_x;
+	t_xy	min_x;
+	t_xy	max_y;
+	t_xy	min_y;
 
 
 	FILE		*fd_log;
@@ -61,15 +64,24 @@ int			map_allocation(t_filler *env, char *line);
 int			piece_allocation(t_filler *env);
 
 /*
-** filler_algo.c
+** list_placable.c
 */
 int			list_possible(t_filler *env, t_list_filler **lst);
+
+
+/*
+** list_placable.c
+*/
+void		check_best_pos(t_filler *env, t_list_filler *placable);
+
 
 /*
 ** tools.c
 */
 void		init_list(t_list_filler *list);
 void		fill_list(t_filler *env, t_list_filler *list, t_xy m);
+void		init_save_max(t_filler *env);
+void		check_max(t_filler *env, t_xy *m, t_xy *p);
 
 /*
 ** dev_tools.c

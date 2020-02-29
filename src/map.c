@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/08 12:30:43 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/02/11 13:12:10 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/02/29 22:00:38 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,7 @@ int		map_allocation(t_filler *env, char *line)
 	}
 	env->map[count.y] = NULL;
 	//print_fd
-	print_map_info(env);
+	//print_map_info(env);
 	return (0);
 }
 
