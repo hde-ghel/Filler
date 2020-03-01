@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/09 19:42:24 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/02/11 17:17:01 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/03/01 18:57:08 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,12 +18,13 @@ void		send_coord(t_filler *env)
 	ft_putchar(' ');
 	ft_putnbr(env->c_place.x);
 	ft_putchar('\n');
-
+/*
 	ft_putstr_fd("\ncoord y = ", env->fd);
 	ft_putnbr_fd(env->c_place.y, env->fd);
 	ft_putstr_fd("\ncoord x = ", env->fd);
 	ft_putnbr_fd(env->c_place.x, env->fd);
 	ft_putstr_fd("\n", env->fd);
+	*/
 }
 
 void		print_player(t_filler *env)
@@ -57,7 +58,6 @@ void	print_map_info(t_filler *env)
 		ft_putstr_fd("\n" ,env->fd);
 	}
 }
-
 void	print_piece_info(t_filler *env)
 {
 	int		i;

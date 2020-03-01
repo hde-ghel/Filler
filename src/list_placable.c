@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/29 17:37:19 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/02/29 18:05:31 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/03/01 16:07:27 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,6 +76,8 @@ int		list_possible(t_filler *env, t_list_filler **lst)
 		m.x = -env->c_piece.x;
 		while (m.x < env->c_map.x)
 		{
+			if (!env->first_turn)
+				check_enemy_pos(env, m);
 			if (!is_placable(env, m))
 				if (!(*lst = add_link(env, *lst, m)))
 					return (-1);

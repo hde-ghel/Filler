@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/24 13:46:05 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/02/29 22:29:55 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/03/01 18:49:51 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,7 @@ struct			s_list_filler
 	t_xy			min_x;
 	t_xy			max_y;
 	t_xy			min_y;
+	t_xy			avg_c;
 	t_list_filler	*next;
 };
 
@@ -52,6 +53,8 @@ typedef	struct	s_filler
 	t_xy	max_y;
 	t_xy	min_y;
 
+	int		first_turn;
+	int		enemy_zone;
 
 	FILE		*fd_log;
 	int			fd;
@@ -70,9 +73,10 @@ int			list_possible(t_filler *env, t_list_filler **lst);
 
 
 /*
-** list_placable.c
+** algo.c
 */
 void		check_best_pos(t_filler *env, t_list_filler *placable);
+void		check_enemy_pos(t_filler *env, t_xy m);
 
 
 /*

@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/29 14:55:24 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/02/29 20:53:22 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/03/01 15:56:53 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,8 @@ void		fill_list(t_filler *env, t_list_filler *list, t_xy m)
 	list->min_x = env->min_x;
 	list->max_y = env->max_y;
 	list->min_y = env->min_y;
+	list->avg_c.x = (env->max_x.x + env->min_x.x + env->max_y.x + env->min_y.x) / 4;
+	list->avg_c.y = (env->max_x.y + env->min_x.y + env->max_y.y + env->min_y.y) / 4;
 }
 
 void		init_save_max(t_filler *env)

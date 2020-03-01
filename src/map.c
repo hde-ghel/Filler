@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/08 12:30:43 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/02/29 22:00:38 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/03/01 13:57:24 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,6 +83,6 @@ int		piece_allocation(t_filler *env)
 	}
 	env->piece[count] = NULL;
 	//print_fd
-	print_piece_info(env);
+	//print_piece_info(env);
 	return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/03 18:40:39 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/02/29 22:05:03 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/03/01 18:23:07 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,8 +24,7 @@ int		get_player(t_filler *env)
 		env->player = 'X';
 	env->enemy = (env->player == 'O') ? 'X' : 'O';
 	ft_strdel(&line);
-//print player
-	print_player(env);
+	//print_player(env);
 	return (0);
 }
 
