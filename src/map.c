@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/08 12:30:43 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/03/01 13:57:24 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/03/02 21:58:35 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,7 @@ int		map_allocation(t_filler *env, char *line)
 
 	count.y = 0;
 	env->c_map = check_size(env, line);
+	env->map = NULL;
 	if (get_next_line(0, &tmp) < 0) //SKIP 0123456
 		return (-1);
 	ft_strdel(&tmp);
@@ -53,6 +54,8 @@ int		map_allocation(t_filler *env, char *line)
 	{
 		if (get_next_line(0, &tmp) < 0)
 			return (-1);//FREE MAP
+		ft_putstr_fd("\n",env->fd);
+		ft_putstr_fd(tmp, env->fd);
 		env->map[count.y++] = ft_strdup(tmp + skip_tomap(tmp));//Protectio + free
 		ft_strdel(&tmp);
 	}

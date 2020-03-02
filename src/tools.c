@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/29 14:55:24 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/03/01 15:56:53 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/03/02 14:27:38 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,10 +43,10 @@ void		init_save_max(t_filler *env)
 	env->max_x.y = 0;
 	env->max_y.x = 0;
 	env->max_y.y = 0;
-	env->min_x.x = 0;
+	env->min_x.x = INT_MAX;
 	env->min_x.y = 0;
 	env->min_y.x = 0;
-	env->min_y.y = 0;
+	env->min_y.y = INT_MAX;
 }
 
 void		check_max(t_filler *env, t_xy *m, t_xy *p)

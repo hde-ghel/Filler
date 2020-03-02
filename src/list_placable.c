@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/29 17:37:19 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/03/01 16:07:27 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/03/02 21:52:38 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,9 @@ int		check_piece_part(t_filler *env, t_xy *m, t_xy *p)
 	if ((m->y + p->y) >= 0 && (m->y + p->y) < env->c_map.y && (m->x + p->x) >= 0 &&
 			(m->x + p->x) < env->c_map.x)
 	{
-		if (env->map[m->y + p->y][m->x + p->x] != env->enemy)
+		if (env->map[m->y + p->y][m->x + p->x] != env->enemy[1])
 		{
-			if (env->map[m->y + p->y][m->x + p->x] == env->player)
+			if (env->map[m->y + p->y][m->x + p->x] == env->player[1])
 				env->overlap += 1;
 			return (0);
 		}
@@ -31,9 +31,9 @@ int		is_placable(t_filler *env, t_xy m)
 {
 	t_xy	p;
 
-	env->overlap = 0;
 	p.x = 0;
 	p.y = 0;
+	env->overlap = 0;
 	init_save_max(env);
 	while(p.y < env->c_piece.y)
 	{
@@ -78,6 +78,8 @@ int		list_possible(t_filler *env, t_list_filler **lst)
 		{
 			if (!env->first_turn)
 				check_enemy_pos(env, m);
+			else
+				check_last_move(env, m);
 			if (!is_placable(env, m))
 				if (!(*lst = add_link(env, *lst, m)))
 					return (-1);

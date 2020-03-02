@@ -6,7 +6,7 @@
 /*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/24 13:46:05 by hde-ghel          #+#    #+#             */
-/*   Updated: 2020/03/01 18:49:51 by hde-ghel         ###   ########.fr       */
+/*   Updated: 2020/03/02 22:03:12 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,9 +40,10 @@ struct			s_list_filler
 typedef	struct	s_filler
 {
 	char	**map;
+	char	**old_map;
 	char	**piece;
-	char	player;
-	char	enemy;
+	char	player[2];
+	char	enemy[2];
 	int		end;
 	t_xy	c_map;
 	t_xy	c_piece;
@@ -55,6 +56,11 @@ typedef	struct	s_filler
 
 	int		first_turn;
 	int		enemy_zone;
+	int		first_corner;
+	int		second_corner;
+	t_xy	c_enemy;
+	t_xy	f_corner;
+	t_xy	s_corner;
 
 	FILE		*fd_log;
 	int			fd;
@@ -77,6 +83,10 @@ int			list_possible(t_filler *env, t_list_filler **lst);
 */
 void		check_best_pos(t_filler *env, t_list_filler *placable);
 void		check_enemy_pos(t_filler *env, t_xy m);
+void		check_enemy_coord(t_filler *env, t_xy m);
+
+void		check_last_move(t_filler *env, t_xy m);
+
 
 
 /*
@@ -86,6 +96,7 @@ void		init_list(t_list_filler *list);
 void		fill_list(t_filler *env, t_list_filler *list, t_xy m);
 void		init_save_max(t_filler *env);
 void		check_max(t_filler *env, t_xy *m, t_xy *p);
+void		print_list(t_filler *env, t_list_filler *list);
 
 /*
 ** dev_tools.c

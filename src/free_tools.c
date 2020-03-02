@@ -1,23 +1,13 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strnew.c                                        :+:      :+:    :+:   */
+/*   free_tools.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tjuzen <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: hde-ghel <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/10/27 16:06:29 by tjuzen            #+#    #+#             */
-/*   Updated: 2018/10/27 16:18:57 by tjuzen           ###   ########.fr       */
+/*   Created: 2020/03/02 21:59:18 by hde-ghel          #+#    #+#             */
+/*   Updated: 2020/03/02 21:59:35 by hde-ghel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
-
-char	*ft_strnew(size_t size)
-{
-	char	*mem;
-
-	if (!(mem = malloc(sizeof(char) * (size + 1))))
-		return (NULL);
-	ft_bzero(mem, size + 1);
-	return (mem);
-}
+# include "../include/filler.h"
