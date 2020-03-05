@@ -6,13 +6,13 @@
 #    By: hde-ghel <hde-ghel@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/03/17 16:02:33 by hde-ghel          #+#    #+#              #
-#    Updated: 2020/02/09 18:20:03 by hde-ghel         ###   ########.fr        #
+#    Updated: 2020/03/05 14:36:45 by hde-ghel         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = hde-ghel.filler
 CC = gcc
-#FLAGS = -Wall -Werror -Wextra 
+#FLAGS = -Wall -Werror -Wextra
 FLAGS = -fsanitize=address
 LIBFT = $(LIBDIR)libft.a
 SRCDIR = ./src/
